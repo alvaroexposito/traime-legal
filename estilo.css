@@ -1,0 +1,37 @@
+:root {
+    color-scheme: light dark;
+    --acento: #5E42E3;
+}
+
+body {
+    margin: 0;
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+}
+
+main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 32px 20px 64px;
+}
+
+a {
+    color: var(--acento);
+}
+
+h1 {
+    line-height: 1.2;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+.fecha {
+    opacity: 0.6;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --acento: #9C8BF5;
+    }
+}
