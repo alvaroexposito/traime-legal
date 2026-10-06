@@ -30,6 +30,30 @@ h2 {
     opacity: 0.6;
 }
 
+.hero {
+    text-align: center;
+}
+
+.icono {
+    border-radius: 22.37%;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.18);
+}
+
+.lema {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: var(--acento);
+}
+
+.funciones li {
+    margin-bottom: 0.6em;
+}
+
+footer {
+    margin-top: 3em;
+    opacity: 0.8;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --acento: #9C8BF5;
